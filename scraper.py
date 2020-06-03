@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 if __name__ == '__main__':
     city = argv[1]
     title = str(argv[2])
-    print(title)
     URL = f'https://www.monster.ca/jobs/search/?q=Software-Developer&where={city}'
     page = requests.get(URL)
 
